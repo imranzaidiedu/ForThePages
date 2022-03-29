@@ -22,14 +22,6 @@ window.web3gl = {
   sendContractResponse: "",
 };
 
-//async function isEVMPresent() {
-//    if (typeof window.ethereum !== 'undefined') {
-//        console.log('MetaMask is installed!');
-//    } else {
-//        window.alert('MetaMask Needed !!');
-//    }
-//}
-
 // will be defined after connect()
 let provider;
 let web3;
